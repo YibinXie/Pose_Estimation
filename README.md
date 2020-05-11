@@ -1,4 +1,4 @@
-# Pose estimation
+# Human pose estimation
 ## News
 
 ## Introduction
