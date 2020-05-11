@@ -23,4 +23,4 @@ This project is based on [HRNet](https://github.com/leoxiaobin/deep-high-resolut
 | pose_hourglass_2   |    256x192 | 24.7M   |   17.2 | 0.749 | 0.898 |  0.820 |  0.716 |  0.816 | 0.802 | 0.938 |  0.866 |  0.760 | 0.863 |
 
 ## Quick start
-Please refer [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch).
+Please refer to [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch).
