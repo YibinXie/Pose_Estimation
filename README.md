@@ -2,7 +2,7 @@
 ## News
 
 ## Introduction
-The code for this project is based of [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch). What i am doing is to implement some models, then train and valid the models on dataset.
+This project is based on [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch). What i am doing is to implement some models, then train and valid the models on dataset.
 ## Main results
 ### Results on MPII val
 | Arch               | Head | Shoulder | Elbow | Wrist |  Hip | Knee | Ankle | Mean | Mean@0.1 |
