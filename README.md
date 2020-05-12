@@ -11,6 +11,7 @@ This project is based on [HRNet](https://github.com/leoxiaobin/deep-high-resolut
 | pose_resnet_101    | 96.9 |     95.9 |  89.5 |  84.4 | 88.4 | 84.5 |  80.7 | 89.1 |     34.0 |
 | pose_resnet_152    | 97.0 |     95.9 |  90.0 |  85.0 | 89.2 | 85.3 |  81.3 | 89.6 |     35.0 |
 | pose_hrnet_w32     | 97.1 |     95.9 |  90.3 |  86.4 | 89.1 | 87.1 |  83.3 | 90.3 |     37.7 |
+| pose_houglass_s2   | 96.6 |     95.1 |  89.6 |  85.2 | 88.0 | 84.2 |  79.9 | 88.9 |     37.0 |
 
 ### Results on COCO val2017 with detector having human AP of 56.4 on COCO val2017 dataset
 | Arch               | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |    AR | AR .5 | AR .75 | AR (M) | AR (L) |
@@ -20,7 +21,7 @@ This project is based on [HRNet](https://github.com/leoxiaobin/deep-high-resolut
 | pose_resnet_152    |    256x192 | 68.6M   |   15.7 | 0.720 | 0.893 |  0.798 |  0.687 |  0.789 | 0.778 | 0.934 |  0.846 |  0.736 |  0.839 |
 | pose_hrnet_w32     |    256x192 | 28.5M   |    7.1 | 0.744 | 0.905 |  0.819 |  0.708 |  0.810 | 0.798 | 0.942 |  0.865 |  0.757 |  0.858 |
 | pose_hrnet_w48     |    256x192 | 63.6M   |   14.6 | 0.751 | 0.906 |  0.822 |  0.715 |  0.818 | 0.804 | 0.943 |  0.867 |  0.762 |  0.864 |
-| pose_hourglass_2   |    256x192 | 24.7M   |   17.2 | 0.749 | 0.898 |  0.820 |  0.716 |  0.816 | 0.802 | 0.938 |  0.866 |  0.760 | 0.863 |
+| pose_hourglass_s2  |    256x192 | 24.7M   |   17.2 | 0.749 | 0.898 |  0.820 |  0.716 |  0.816 | 0.802 | 0.938 |  0.866 |  0.760 | 0.863 |
 
 ## Quick start
 Please refer to [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch).
